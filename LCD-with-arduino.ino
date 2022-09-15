@@ -15,17 +15,17 @@ void loop()
 {
 
 lcd.setCursor(0,0); //Defining positon to write from first row,first column .
-lcd.print(" Tech Maker "); //You can write 16 Characters per line .
+lcd.print(" Hi! "); //You can write 16 Characters per line .
 delay(1000);//Delay used to give a dynamic effect
 lcd.setCursor(0,1);  //Defining positon to write from second row,first column .
-lcd.print("Like | Share");
+lcd.print("How are you?");
 delay(8000); 
 
 lcd.clear();//Clean the screen
 lcd.setCursor(0,0); 
-lcd.print(" SUBSCRIBE ");
+lcd.print(" Hello World! ");
 lcd.setCursor(0,1);
-lcd.print(" TECH MAKER ");
+lcd.print(" Thanks! ");
 delay(8000); 
 }
 
